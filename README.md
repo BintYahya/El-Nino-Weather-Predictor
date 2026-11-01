@@ -1,1 +1,1 @@
-ElNino Weather Predictor Website
+El Niño Weather Predictor Website
