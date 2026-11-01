@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta Access-Control-Allow-Origin: *>
+    <link rel="stylesheet" href="index.css">
+    <title>El Niño Weather Forecast</title>
+</head>
+<body>
+    <section>
+        <div class="header">
+            <ul class="menu">
+                <a class="navigation" href="#home"><li>Home</li></a>
+                <a class="navigation" href="#current"><li>Weather</li></a>
+                <a class="navigation" href="#emergency"><li>Emergency Services</li></a>
+            </ul>
+        </div>
+    </section>
+
+    <section id="home">
+            <div class="elnino-intro"> 
+                <h1 class="elnino-heading"> EL NINO AND LA NINA </h1><br>
+                <p>
+                According to the World Meteorological Organization (WMO), El Niño and La Niña are two opposite phases of a naturally occuring climate pattern known as the El Niño Climate Oscillation (ENSO), involving fluctuating ocean temperatures in the central and equitorial Pacific, coupled with changes in the overlying atmosphere.
+                </p>
+            </div>
+            <div class ="elnino-image">
+                    <img src="images/elnino.jpeg" width="400px" height="400px">
+            </div>
+    </section>
+
+    <section id="current">
+        <div>
+            <div class="celsius">
+                <input type="search" placeholder="enter city name" spellcheck="false">
+                <button type="submit" class="search-btn">Search</button>
+            </div>
+        </div>
+        <div class="weather">
+            <img src="images/clouds.jpeg" class="weather-icon">
+            <h1 class="temp">0°C</h1>
+            <h2 class="city">City</h2>
+        </div>
+        <div class="details">
+            <div class="first">
+                <label>Humidity</label>
+                <button class="humidity" disabled>0°C</button>
+            </div>
+
+            <div class="second">
+                <label>Wind Speed</label>
+                <button class="wind" disabled>0 km/h</button>
+            </div>
+        </div>
+
+        </div>
+    </section><br><br><br>
+
+
+    <section id="emergency">
+        <div>
+            <div class="emergency">
+                <h1>
+                    Emergency Services Details
+                </h1><br>
+                <p>Emergency services in all states in Nigeria can be contacted through numbers listed <a href="https://nigeriancardiacsociety.com/emergency-hotlines">here</a>.</p>
+
+            </div>
+        
+
+        </div>
+
+
+    </section>
+
+
+    <footer>
+            <div class="footer">
+            <p class="footer-text">Shakirat Yahya© 2026</p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
